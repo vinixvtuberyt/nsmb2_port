@@ -29,7 +29,7 @@ jobs:
           zip -r build/outputs/apk/nsmb2_port.apk . -x "*.git*"
 
       - name: Upload APK Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: NSMB2-Port-APK
           path: build/outputs/apk/
